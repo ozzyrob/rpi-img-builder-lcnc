@@ -81,7 +81,7 @@ Ccache:			# Compiler cache
 Distribution
 Distro:			# Supported: debian, devuan and ubuntu
 Release:		# Debian: bullseye, bookworm, testing, unstable and sid
-			# Devuan: chimaera and daedalus (broken: excalibur, testing, unstable, ceres)
+			# Devuan: chimaera, daedalus, excalibur, testing, unstable and ceres
 			# https://www.devuan.org/os/announce/excalibur-usrmerge-announce-2024-02-20.html
 			# Ubuntu: focal, jammy and noble
 NetworkManager		# 1 networkmanager | 0 ifupdown
@@ -142,10 +142,8 @@ COMMIT="9ed4f05ba2e2bcd9065831674e97b2b1283e866d"
 * Review the [Wiki](https://github.com/pyavitz/rpi-img-builder/wiki/Options-&-Scripts)
 * The boot partition is labelled BOOT
 #### BOOT: useraccount.txt
-* Headless: ENABLE="true" and fill in the variables (recommended)
-* Headful: ENABLE="false" and get prompted to create a user account
+* Input your user information
 ```sh
-ENABLE="false"			# Set to true to enable service
 NAME=""				# Your name
 USERNAME=""			# Username
 PASSWORD=""			# Password
