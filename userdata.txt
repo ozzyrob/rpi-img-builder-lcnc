@@ -23,12 +23,11 @@ COMPRESS_IMG="1"
 USCRIPTS="0"
 USERACCT="0"
 DEVROOTFS="1"
-USER_PKGS="htop libsensors-dev rsyslog 
-# xfce4 xfce4-terminal xfce4-power-manager geany firefox-esr konsole curl"
+USER_PKGS="htop libsensors-dev rsyslog xfce4 xfce4-terminal xfce4-power-manager geany firefox-esr konsole curl"
 
 ### CUSTOM LINUX KERNEL
-ENABLE_COMMIT="0"
-COMMIT=""
+ENABLE_COMMIT="1"
+COMMIT="236f36133619216a5c8faea1a8c2c93c83efc2f4""
 
 ### COMPILER TUNING
 CORES=`nproc`
